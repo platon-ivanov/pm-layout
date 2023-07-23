@@ -1,0 +1,43 @@
+default partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+    name[Group1]= "Plato Multilingual (US)";
+         include "us"
+         include "level3(ralt_switch)"
+    };
+
+partial alphanumeric_keys
+xkb_symbols "de" {
+
+    include "pm(basic)"
+    name[Group1]= "Plato Multilingual (GER)";
+
+    key <AE01>  {[    udiaeresis,  exclam,     1,  dead_tilde ] };
+    key <AE02>  {[    odiaeresis, at,         2,  dead_caron ] };
+    key <AE03>  {[    ssharp, numbersign, 3,  dead_circumflex ] };
+    key <AE04>  {[    ccaron, dollar,     4,  dead_breve ] };
+    key <AE05>  {[    rcaron, percent,    5,  dead_abovering]};
+    key <AE06>  {[    zcaron, asciicircum,6,  dead_ogonek ] };
+    key <AE07>  {[    yacute, ampersand,  7,  dead_grave ] };
+    key <AE08>  {[    adiaeresis, asterisk, 8,  dead_abovedot] };
+    key <AE09>  {[    iacute, parenleft,  9,  dead_acute ] };
+    key <AE10>  {[    eacute, parenright, 0,  dead_doubleacute ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "cz" {
+
+    include "pm(basic)"
+    name[Group1]= "Plato Multilingual (CES)";
+
+    key <TLDE>	{[   grave,	 asciitilde	, uacute, dead_caron]};
+    key <AE01>  {[    uring,  exclam,     1,  dead_tilde ] };
+    key <AE02>  {[    ecaron, at,         2,  dead_caron ] };
+    key <AE03>  {[    scaron, numbersign, 3,  dead_circumflex ] };
+    key <AE04>  {[    ccaron, dollar,     4,  dead_breve ] };
+    key <AE05>  {[    rcaron, percent,    5,  dead_abovering]};
+    key <AE06>  {[    zcaron, asciicircum,6,  dead_ogonek ] };
+    key <AE07>  {[    yacute, ampersand,  7,  dead_grave ] };
+    key <AE08>  {[    aacute, asterisk,   8,  dead_abovedot] };
+    key <AE09>  {[    iacute, parenleft,  9,  dead_acute ] };
+    key <AE10>  {[    eacute, parenright, 0,  dead_doubleacute ] };
+};

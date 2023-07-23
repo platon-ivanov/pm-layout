@@ -1,0 +1,26 @@
+ <layout>
+    <configItem>
+        <name>pm</name>
+        <shortDescription>pm</shortDescription>
+        <description>Multilingual (Plato)</description>
+        <languageList>
+                <iso639Id>eng</iso639Id>
+                <iso639Id>ger</iso639Id>
+                <iso639Id>ces</iso639Id>
+        </languageList>
+    </configItem>
+    <variantList>
+        <variant>
+            <configItem>
+            <name>de</name>
+            <description>Multilingual (Plato, German)</description>
+            </configItem>
+        </variant>
+        <variant>
+            <configItem>
+            <name>cz</name>
+            <description>Multilingual (Plato, Czech)</description>
+            </configItem>
+        </variant>
+    </variantList>
+ </layout>
