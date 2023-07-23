@@ -61,4 +61,4 @@ This repository is licensed under the [MIT License](LICENSE). You are free to us
 
 ## Acknowledgments
 
-I would like to express my gratitude to the Michal Měchura ([@michmech](https://www.github.com/michmech))  for providing his [Multilingual layout](https://github.com/michmech/mx)) thanks to which I could learn how to create my own layout and the [article in the Ubuntu documentation](https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions) which let me understand the system deeper.
+I would like to express my gratitude to Michal Měchura ([@michmech](https://www.github.com/michmech))  for providing his [Multilingual layout](https://github.com/michmech/mx)) thanks to which I could learn how to create my own layout and the [article in the Ubuntu documentation](https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions) which let me understand the system deeper.
