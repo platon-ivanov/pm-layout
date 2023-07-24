@@ -38,7 +38,7 @@ To address these issues and enhance the typing experience for programmers who us
 #### Linux
 
 1. Copy the file `Linux/pm` into `/usr/share/X11/xkb/symbols` (this adds the layout to your system)
-2. Add the XML snippet from `Linux/evdev.xml` into the `<layoutList>` section in `/usr/share/X11/xkb/rules/evdev/xml` (this makes )
+2. Add the XML snippet from `Linux/evdev.xml` into the `<layoutList>` section in `/usr/share/X11/xkb/rules/evdev.xml` (this makes the layouts accessible in the keyboard settings)
 3. If on Ubuntu, clear XKB cache with `sudo dpkg-reconfigure xkb-data` and/or restart, on KDE Plasma log out and in.
 4. Add all 3 layouts to your keyboard.
 
@@ -53,7 +53,7 @@ The layout remains unchanged from the US keyboard with the exception of the numb
 
 ## Contributing
 
-We welcome contributions from the community to further improve and refine the multilingual keyboard layout. If you have any suggestions, bug fixes, or additional language support to offer, feel free to submit a pull request. Let's work together to make this keyboard layout a go-to solution for multilingual programmers.
+If you have any suggestions, bug fixes, or additional language support to offer, feel free to submit a pull request!
 
 ## License
 
